@@ -1,0 +1,29 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "ajv-keywords": "^3.4.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "js-yaml": "^3.13.1",
+    "mongodb": "^3.4.0",
+    "mongoose": "^5.8.0",
+    "nodemon": "^2.0.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^7.15.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3"
+  }
+}
